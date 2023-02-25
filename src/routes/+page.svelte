@@ -5,11 +5,11 @@
     import "@fortawesome/fontawesome-free/css/all.min.css";
     import "@fortawesome/fontawesome-free/js/all.min.js";
     let btnClass = 'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-xl p-2';
-   import { Drawer, CloseButton, Sidebar, SidebarBrand, SidebarCta, SidebarDropdownItem, SidebarDropdownWrapper, SidebarGroup, SidebarItem, SidebarWrapper } from 'flowbite-svelte';
-  import { sineIn } from 'svelte/easing';
-  let hidden2 = true;
-  let spanClass = 'flex-1 ml-3 whitespace-nowrap';
-  let transitionParams = {
+    import { Drawer, CloseButton, Sidebar, SidebarBrand, SidebarCta, SidebarDropdownItem, SidebarDropdownWrapper, SidebarGroup, SidebarItem, SidebarWrapper } from 'flowbite-svelte';
+    import { sineIn } from 'svelte/easing';
+    let hidden2 = true;
+    let spanClass = 'flex-1 ml-3 whitespace-nowrap';
+    let transitionParams = {
     x: -320,
     duration: 200,
     easing: sineIn
